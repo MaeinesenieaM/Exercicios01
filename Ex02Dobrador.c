@@ -17,5 +17,7 @@ int main ()
 
    printf ("\n O Dobro do número: %d", res);
 
+   printf ("\n\n    __o  bici! \n  _/><_ \n (_)/(_) \n  ");
+
    return 0;
 }

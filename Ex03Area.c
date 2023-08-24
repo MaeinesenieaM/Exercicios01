@@ -17,5 +17,7 @@ int main ()
 
    printf (" .\n .\n .\n Área da sala: %d²", res);
 
+   printf ("\n\n    __o  bici! \n  _/><_ \n (_)/(_) \n  ");
+
    return 0;
 }

@@ -17,5 +17,7 @@ int main ()
 
    printf (" .\n .\n Você teria %.2f dolares!", temdolar);
 
+   printf ("\n\n    __o  bici! \n  _/><_ \n (_)/(_) \n  ");
+
    return 0;
 }

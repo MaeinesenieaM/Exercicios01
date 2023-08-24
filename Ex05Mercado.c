@@ -22,5 +22,7 @@ int main ()
 
    printf (" O Ganho pela venda do produto sera: %.2f%", porcentagem);
 
+   printf ("\n\n    __o  bici! \n  _/><_ \n (_)/(_) \n  ");
+
    return 0;
 }
