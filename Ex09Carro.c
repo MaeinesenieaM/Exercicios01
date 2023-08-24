@@ -10,14 +10,14 @@ int main ()
 
    setlocale (LC_ALL, "Portuguese");
 
-   printf ("----Fabrica De Carros----\n\n");
+   printf ("----Fábrica De Carros----\n\n");
    printf (" Insira o dinheiro para fabricar o carro: "); scanf ("%f", &pag);
    printf (" .\n");
 
    preco = pag * (dist + imp + 1);
 
    printf (" .\n");
-   printf (" Preco total do carro: R$ %.2f", preco);
+   printf (" Preço total do carro: R$ %.2f", preco);
 
    return 0;
 }
