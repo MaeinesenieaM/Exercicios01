@@ -19,5 +19,7 @@ int main ()
    printf (" .\n");
    printf (" Preço total do carro: R$ %.2f", preco);
 
+   printf ("\n\n    __o  bici! \n  _/><_ \n (_)/(_) \n  "); //BICI!!!
+
    return 0;
 }
