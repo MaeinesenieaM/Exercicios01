@@ -3,7 +3,7 @@
 
 int main ()
 {
-   float vmercadoria, vtaxa, venda, gastos, ganhos;
+   float vmercadoria, vtaxa, vdespesas, venda, gastos;
    float porcentagem;
 
    setlocale (LC_ALL, "Portuguese");
@@ -11,15 +11,15 @@ int main ()
    printf ("======Calculadora de ganhos do mercado======\n\n");
 
    printf (" O valor da mercadoria: "); scanf ("%f", &vmercadoria);
-   printf (" O custo da taxa e despesas: "); scanf ("%f", &vtaxa);
-   printf (" Agora insira o preço desejado do produto: "); scanf ("%f", &venda);
+   printf (" O custo da taxa: "); scanf ("%f", &vtaxa);
+   printf (" O custo das despesas: "); scanf ("%f", &vdespesas);
+   printf (" Insira o dinheiro ganho com as vendas: "); scanf ("%f", &venda);
 
-   gastos = vmercadoria + vtaxa;
-   ganhos = venda - gastos;
+   gastos = vmercadoria + vtaxa + vdespesas;
 
-   porcentagem = (ganhos / gastos) * 100;
+   porcentagem = ((gastos - venda) / gastos) * 100;
 
-   printf (" O Ganho pela venda do produto sera: %.2f%", porcentagem);
+   printf (" O Ganho pela venda do produto sera: %.2f%%", porcentagem);
 
    printf ("\n\n    __o  bici! \n  _/><_ \n (_)/(_) \n  ");
 
