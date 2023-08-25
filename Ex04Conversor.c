@@ -3,8 +3,7 @@
 
 int main ()
 {
-
-   int reais;
+   float reais;
    float valdolar = (4.87); //valor atual do dolar.
    float temdolar;          //quantidade de dolares.
 
