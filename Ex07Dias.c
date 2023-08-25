@@ -37,7 +37,6 @@ int main ()
    printf (" <Parabéns, tem %d dias desde que você nasceu!>", diastotais);
 
    printf ("\n\n    __o  bici! \n  _/><_ \n (_)/(_) \n");
-   printf ("Pode fechar o programa agora."); scanf ("%s", udia);
 
    return 0;
 }
