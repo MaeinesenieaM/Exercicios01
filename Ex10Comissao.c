@@ -25,7 +25,7 @@ int main ()
    salariofin = salario + (carrop * carrov) + (vendat * 0.05);
 
    printf (" .\n");
-   printf (" O Salário a ser recebido sera de R$%.2f.", salariofin);
+   printf (" O Salário a ser recebido sera de R$ %.2f.", salariofin);
 
    printf ("\n\n    __o  bici! \n  _/><_ \n (_)/(_) \n  "); //BICI!!!
 
