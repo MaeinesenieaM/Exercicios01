@@ -15,13 +15,13 @@ int main ()
    int diaatual = tempo_atual->tm_yday; // -- mostra qual dia do ano estamos.
 
    int vano = 365; // -- dias em cada ano.
-   int vmes = 30;  // -- dias a cada mes.
+   float vmes = 30.416;  // -- dias a cada mes.
 //valores do usuário
    int uano;
    int umes;
    int udia;
 
-   int diastotais; // --O Valor ja diz seu proposito.
+   float diastotais; // --O Valor ja diz seu proposito.
 
    setlocale (LC_ALL, "Portuguese");
 
@@ -32,11 +32,12 @@ int main ()
    printf ("  Dia: "); scanf ("%d", &udia);
 
 //calcula os dias
-   diastotais = diaatual + (vano * (anoatual - uano - 1)) + ( vmes * (12 - umes));
+   diastotais = diaatual + (vano * ( anoatual - uano - 1 )) + ( udia + (float)vmes * (12 - umes) );
 
-   printf ("\n<Parabéns, tem %d dias desde que você nasceu!>", diastotais);
+   printf ("\n<Parabéns, tem %.f dias desde que você nasceu!>", diastotais);
 
    printf ("\n\n    __o  bici! \n  _/><_ \n (_)/(_) \n");
+   printf ("Pode fechar o programa agora :)"); scanf("%d", &diastotais);
 
    return 0;
 }
