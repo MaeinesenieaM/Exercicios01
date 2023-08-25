@@ -32,9 +32,9 @@ int main ()
    printf ("  Dia: "); scanf ("%d", &udia);
 
    //calcula os dias
-   diastotais = diaatual + (vano * (anoatual - uano)) + ( vmes * (12 - umes));
+   diastotais = diaatual + (vano * (anoatual - uano - 1)) + ( vmes * (12 - umes));
 
-   printf (" <Parabéns, tem %d dias desde que você nasceu!>", diastotais);
+   printf ("<Parabéns, tem %d dias desde que você nasceu!>", diastotais);
 
    printf ("\n\n    __o  bici! \n  _/><_ \n (_)/(_) \n");
 
