@@ -3,19 +3,19 @@
 
 int main ()
 {
-   int comprimento, largura;
-   int res;
+   float comprimento, largura;
+   float res;
 
    setlocale (LC_ALL, "Portuguese");
 
    printf ("======Calculador de área======\n\n");
 
-   printf (" Insira o comprimento da sala: "); scanf ("%d", &comprimento);
-   printf (" Insire a largura da sala: "); scanf ("%d", &largura);
+   printf (" Insira o comprimento da sala: "); scanf ("%f", &comprimento);
+   printf (" Insire a largura da sala: "); scanf ("%f", &largura);
 
    res = comprimento * largura;
 
-   printf (" .\n .\n .\n Área da sala: %d²", res);
+   printf (" .\n .\n .\n Área da sala: %f²", res);
 
    printf ("\n\n    __o  bici! \n  _/><_ \n (_)/(_) \n  ");
 
