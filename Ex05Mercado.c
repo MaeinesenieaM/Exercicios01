@@ -3,13 +3,12 @@
 
 int main ()
 {
-
    int vmercadoria, vtaxa, venda, gastos, ganhos;
    float porcentagem;
 
    setlocale (LC_ALL, "Portuguese");
 
-   printf ("======Calculador de área======\n\n");
+   printf ("======Calculadora de ganhos do mercado======\n\n");
 
    printf (" O valor da mercadoria: "); scanf ("%d", &vmercadoria);
    printf (" O custo da taxa e despesas: "); scanf ("%d", &vtaxa);
