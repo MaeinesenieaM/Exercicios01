@@ -17,7 +17,7 @@ int main ()
    gastos = vmercadoria + vtaxa;
    ganhos = venda - gastos;
 
-   porcentagem = (float)(ganhos * 100) / gastos;
+   porcentagem = (ganhos * 100) / gastos;
 
    printf (" O Ganho pela venda do produto sera: %.2f%", porcentagem);
 
